@@ -1,0 +1,26 @@
+{
+  "name": "VidarDB Engine",
+  "description": "VidarDB, the world's first unified database. Replace multiple data tools with a single unified database.",
+  "logo": "https://www.vidardb.com/assets/images/logo.png",
+  "keywords": [
+    "database",
+    "api",
+    "vidardb",
+    "postgres",
+    "hasura"
+  ],
+  "success_url": "/console",
+  "website": "https://www.vidardb.com",
+  "repository": "https://github.com/vidardb/vidardb-engine-heroku",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "stack": "container",
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev"
+    }
+  ]
+}
